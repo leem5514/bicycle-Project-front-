@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+}
+h2 {
+    margin : 20px;
+}
+.container {
+    
+    text-align: center;
+    border: 1px solid #ccc;
+}
