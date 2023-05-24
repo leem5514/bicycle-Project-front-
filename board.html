@@ -5,8 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>게시판</title>
+    <link rel="stylesheet" type="text/css" href="css/board.css">
 </head>
 <body>
-    게시판
+    <!-- 메뉴바와 로그인 화면 -->
+    <div class="header">
+        <div class="upper">
+            <div class="logo" onclick="location.href='bicycle.html'">로고화면</div>
+
+            <!-- 로그인 / 로그아웃 -->
+            <div class="log">
+                <a href="login.html" class="logincheck">로그인&nbsp;&nbsp;/&nbsp;&nbsp;</a>
+                <a href="myfavorite.html" class="myfavorite">내 표시 보기</a>
+            </div>
+            
+            </div>
+        </div>
+            <!-- 메뉴바 -->
+        <div class="header-center">
+            <ul>
+                <li class>
+                    <a href="map.html" class="Map">MAP</a>
+                </li>
+                <li class>
+                    <a href="board.html" class="Board">Board</a>
+                </li>
+                <li class>
+                    <a href="danger.html" class="danger">Danger</a>
+                </li>
+                <li class>
+                    <a href="store.html" class="store">Store</a>
+                </li>
+            </ul>
+        </div>
+
+        <hr />
+    </div>
+
+    <!-- 게시판 본문 -->
+    <div class="board_wrap">
+        <div class="board_title">
+            <strong>게시판</strong>
+        </div>
+        <div class="board_list_wrap">
+            <div class="board_list">
+                <div class="top">
+                    <div class="num">번호</div>
+                    <div class="title">제목</div>
+                    <div class="writer">글쓴이</div>
+                    <div class="date">작성일</div>
+            
+                </div>
+                <!-- 작성예시5 -->
+                <div>
+                    <div class="num">5</div>
+                    <div class="title"><a href="boardview.html">글 제목이 들어갑니다.</a></div>
+                    <div class="writer">김성재</div>
+                    <div class="date">2023.05.31</div>
+                </div>
+                <!-- 작성예시4 -->
+                <div>
+                    <div class="num">4</div>
+                    <div class="title"><a href="boardview.html">글 제목이 들어갑니다.</a></div>
+                    <div class="writer">김성재</div>
+                    <div class="date">2023.05.24</div>
+                </div>
+                <!-- 작성예시3 -->
+                <div>
+                    <div class="num">3</div>
+                    <div class="title"><a href="boardboardview.html">글 제목이 들어갑니다.</a></div>
+                    <div class="writer">김성재</div>
+                    <div class="date">2021.05.17</div>
+                </div>
+                <!-- 작성예시2 -->
+                <div>
+                    <div class="num">2</div>
+                    <div class="title"><a href="boardview.html">글 제목이 들어갑니다.</a></div>
+                    <div class="writer">김성재</div>
+                    <div class="date">2023.05.10</div>
+                </div>
+                <!-- 작성예시1(본 필요 구문) -->
+                <div>
+                    <div class="num">1</div>
+                    <div class="title"><a href="boardview.html">글 제목이 들어갑니다.</a></div>
+                    <div class="writer">김성재</div>
+                    <div class="date">2023.05.03</div>
+                </div>
+            </div>
+    <!-- 글쓰기버튼 -->
+            <div class="bt_wrap">
+                <a href="boardwrite.html" class="on">글쓰기</a>
+            </div>
+    <!-- 페이지바 -->
+            <div class="board_page">
+                <a href="#" class="bt first"><<</a>
+                <a href="#" class="bt prev"><</a>
+                <a href="#" class="num on">1</a>
+                <a href="#" class="num">2</a>
+                <a href="#" class="num">3</a>
+                <a href="#" class="num">4</a>
+                <a href="#" class="num">5</a>
+                <a href="#" class="bt next">></a>
+                <a href="#" class="bt last">>></a>
+            </div>
+            
+        </div>
+    </div>
+
 </body>
 </html>

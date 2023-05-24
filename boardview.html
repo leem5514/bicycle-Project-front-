@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판 자세히 보기</title>
+    <link rel="stylesheet" href="css/board.css">
+</head>
+<body>
+<!-- 메뉴바와 로그인 화면 -->
+    <div class="header">
+        <div class="upper">
+            <div class="logo" onclick="location.href='bicycle.html'">로고화면</div>
+
+            <!-- 로그인 / 로그아웃 -->
+            <div class="log">
+                <a href="login.html" class="logincheck">로그인&nbsp;&nbsp;/&nbsp;&nbsp;</a>
+                <a href="myfavorite.html" class="myfavorite">내 표시 보기</a>
+            </div>
+            
+            </div>
+        </div>
+            <!-- 메뉴바 -->
+        <div class="header-center">
+            <ul>
+                <li class>
+                    <a href="map.html" class="Map">MAP</a>
+                </li>
+                <li class>
+                    <a href="board.html" class="Board">Board</a>
+                </li>
+                <li class>
+                    <a href="danger.html" class="danger">Danger</a>
+                </li>
+                <li class>
+                    <a href="store.html" class="store">Store</a>
+                </li>
+            </ul>
+        </div>
+
+        <hr />
+    </div>
+
+<!-- 본문내용 -->
+    <div class="board_wrap">
+        <div class="board_title" onclick="location.href='board.html'">
+            <strong>게시판</strong>
+            <p>상세내용</p>
+        </div>
+        <div class="board_view_wrap">
+<!-- 삭제버튼 -->
+            <div class="delete">삭제하기</div>
+            <div class="board_view">
+                <div class="title">
+                    제목
+                </div>
+
+                <div class="info">
+                    <dl>
+                        <dt>No.</dt>
+                        <!-- 번호(id) -->
+                        <dd>1</dd>  
+                    </dl>
+                    <dl>
+                        <dt>작성자</dt>
+                        <!-- 작성자(writer) -->
+                        <dd>김성재</dd>
+                    </dl>
+                    <dl>
+                        <dt>작성시간</dt>
+                        <!-- 작성일(date) -->
+                        <dd>2023.05.24</dd>
+                    </dl>
+                </div>
+                <div class="cont">
+                    글 내용 삽입
+                </div>
+            </div>
+
+            <div class="bt_wrap">
+                <a href="board.html" class="on">목록</a>
+                <a href="boardedit.html">수정</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

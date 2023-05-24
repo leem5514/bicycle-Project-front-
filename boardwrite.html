@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시글작성</title>
+    <link rel="stylesheet" href="css/board.css">
+</head>
+<body>
+    <div class="board_wrap">
+        <div class="board_title" onclick="location.href='board.html'">
+            <strong>게시글작성</strong>
+            <p>게시글을 작성해주세요</p>
+        </div>
+        <div class="board_write_wrap">
+            <div class="board_write">
+                <div class="title">
+                    <dl>
+                        <dt>제목</dt>
+                        <dd><input type="text" placeholder="제목 입력" id="title"></dd>
+                    </dl>
+                </div>
+                <div class="info">
+                    <dl>
+                        <dt>작성자</dt>
+                        <dd><input type="text" placeholder="작성자 입력" id="writer"></dd>
+                    </dl>
+                </div>
+                <div class="cont">
+                    <textarea placeholder="내용 입력" id="substance"></textarea>
+                </div>
+            </div>
+            <div class="bt_wrap">
+                <a href="boardview.html" class="on">등록</a>
+                <a href="board.html">돌아가기</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
