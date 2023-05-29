@@ -240,10 +240,109 @@ img {
     aspect-ratio: auto 1063 / 349;
     overflow: clip;
 }
-
-
 /* Map으로 가는 배너 끝 */
 
+/* Danger으로 가는 배너 시작 */
+.dangershortcut {
+    height:350px;
+    width:100%;
+    background-color: #b75f01;
+    background-size: 100% auto;
+    overflow: hidden;
+    word-break: keep-all;
+    
+    
+}
+.dangershortcut .dangershortcut_con {
+    padding: 0 1%;
+    max-width: 1180px;
+    margin: 0 auto;
+    
+    
+}
+.dangershortcut .dangershortcut_con h2 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #fff;
+    padding-top: 40px;
+    line-height: 1.4em;
+}
+
+.dangershortcut .dangershortcut_con h2 em {
+    
+    display: block;
+    font-weight: 900;
+    font-size: 42px;
+    font-style: normal;
+}
+.dangershortcut .dangershortcut_con p {
+    font-size: 17px;
+    color: #fff;
+    font-family: '나눔스퀘어', NanumSquare, NS, '맑은 고딕', MalgunGothic, '돋움', Dotum;
+    line-height: 1.4em;
+    margin-top: 17px;
+    text-align: left;
+}
+.dangershortcut .dangershortcut_con p span {
+    display: block;
+}
+.dangershortcut .dangershortcut_con .cut_btn {
+    position: relative;
+    width: 190px;
+    /* margin: 36px auto; */
+    z-index: 20;
+}
+.dangershortcut .dangershortcut_con .cut_btn.danger_btn a {
+    display: block;
+    border: solid 1px #FFFFFF;
+    color: #FFF;
+    margin-bottom: 8px;
+}
+.danger_btn a {
+    display: inline-block;
+    width: 188px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    border: solid 1px #b8bfd4;
+    font-size: 15px;
+    font-weight: 500;
+    color: #233e83;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    font-weight:800;
+}
+.danger_btn a:hover {
+    background-color:  #fff;
+    color : #b75f01;
+}
+.dangershortcut .dangershortcut_con .cut_btn.danger_btn a:hover {
+    color: #b75f01;
+    font-weight:800;
+}
+.dangershortcut .dangershortcut_img {
+    margin-top: -300px;
+}
+
+.dangershortcut .dangershortcut_img img {
+    max-width: 450px;
+    margin-right: -150px;
+    float: right;
+    width: 120%;
+    height: auto;
+    margin-right: 0px;
+}
+img, fieldset {
+    border: 0px;
+    vertical-align: top;
+}
+img {
+    overflow-clip-margin: content-box;
+    aspect-ratio: auto 1063 / 349;
+    overflow: clip;
+}
+/* Danger으로 가는 배너 끝부분 */
 
 /* main_buttom */
 .main_bottom {
@@ -348,6 +447,29 @@ img {
 .main_update ul li {
     margin-bottom: 4px;
 }
+
+/* 날씨api */
+.weather-container {
+    /* display: flex; */
+    /* align-items: center; */
+    font-family: Arial, sans-serif;
+}
+.weather-container h2 {
+   
+    font-size: 20px;
+    font-weight: 600;
+    color: #202023;
+    font-family: '나눔스퀘어', NanumSquare, NS, '맑은 고딕', MalgunGothic, '돋움', Dotum;
+}
+
+.weather-icon {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    margin-right: 20px;
+}
+
 
 
 
