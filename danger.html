@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>자전거 길 지도</title>
+    <title>위험구간 지도</title>
     <!-- 2. 설치 스크립트
 	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다. -->
     <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/map.css">
-    
+	<link rel="stylesheet" type="text/css" href="css/danger.css">
 </head>
 <body>
 	<div class="header">
@@ -20,14 +19,27 @@
             <div class="log">
                 <a href="login.html" class="logincheck">로그인&nbsp;&nbsp;/&nbsp;&nbsp;</a>
                 <a href="myfavorite.html" class="myfavorite">내 표시 보기</a>
-            </div> 
+            </div>
+            
+            </div>
         </div>
-    </div>
-    
-        
-        <!-- <div class="header-center">
-            <input type="" id="findroad" name="findroad" placeholder="원하는 도시를 말해주세요">
-        </div> -->
+            
+        <div class="header-center">
+            <ul>
+                <li class>
+                    <a href="map.html" class="map">MAP</a>
+                </li>
+                <li class>
+                    <a href="board.html" class="board">Board</a>
+                </li>
+                <li class>
+                    <a href="danger.html" class="danger">Danger</a>
+                </li>
+                <li class>
+                    <a href="locker.html" class="Locker">Locker</a>
+                </li>
+            </ul>
+        </div>
 
         <hr />
   

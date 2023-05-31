@@ -1,4 +1,3 @@
-
 body{
     text-align: center;
     font-family: 'Noto Sans KR', sans-serif;
@@ -23,7 +22,8 @@ h2 {
   text-align: center;
   font-size: 40px;
   font-weight: 700;
-  color: balck;
+  color: #000;
+  cursor: pointer;
 }
 .container {
   max-width: 400px;
@@ -31,21 +31,23 @@ h2 {
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .container h3 {
-  font-size: 15px;
+    float:left;
+    font-size: 15px;
+    margin-bottom: 30px;
   
 }
   
-.container input[type="text"],
-.container input[type="password"] {
+.container input[type="text"]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    margin-bottom: 30px;
 }
   
 .container button {
@@ -85,57 +87,50 @@ h2 {
   margin-top:10px;
   text-align: center; 
 }
-
 .btn_findid {
-  width: 197px;
-  height: 50px;
-  background-color: #272727;
-  color: #ffffff;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  justify-content: center;
+    width: 197px;
+    height: 50px;
+    background-color: #ccc;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    justify-content: center;
 }
 .btn_findid:hover {
-  opacity: 0.8;
+    background-color: #000;
+    color:#ccc;
+    opacity: 0.8;
 }
-.btn_findpwd {
+.btn_login {
   width: 197px;
   height: 50px;
-  background-color: #272727;
-  color: #ffffff;
+  background-color: #ccc;
+  color: #000;
   border: 1px solid #ccc;
   border-radius: 3px;
   justify-content: center;
 }
-.btn_findpwd:hover {
+.btn_login:hover {
+  background-color: #000;
+  color:#ccc;
   opacity: 0.8;
 }
-.fastlogin {
-  margin-top:10px;
-  text-align: center; 
-  /* margin-right: 200px; */
+
+.bottom_upper {
+    margin-top: 50px;
 }
-.kakaologin {
-  /* width: 197px; */
-  width: 400px;
-  height: 50px;
-  background-color: #272727;
-  color: #ffffff;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  justify-content: center;
+.bottom_upper a {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 14px;
 }
-.kakaologin p {
-  
+.bottom_down span{
+    font-weight: 500;
+    font-size: 14px;
 }
-.kakaologin img {
-  height:30px;
-  width: 30px;
-  float:left;
-  position:relative;
-  top:50%;
-  transform:translateY(-50%);
-}
-.kakaologin:hover {
-  opacity: 0.8;
-}
+
+

@@ -37,7 +37,7 @@
                     <a href="danger.html" class="danger">Danger</a>
                 </li>
                 <li class>
-                    <a href="store.html" class="store">Store</a>
+                    <a href="locker.html" class="Locker">Locker</a>
                 </li>
             </ul>
         </div>
@@ -174,7 +174,7 @@
                     cityNameElement.textContent = data.name;
     
                     const temperatureElement = document.getElementById("temperature");
-                    const temperature = data.main.temp - 273.15; // 온도 단위 변환 (켈빈 -> 섭씨)
+                    const temperature = data.main.temp - 273.15;
                     temperatureElement.textContent = ` ${temperature.toFixed(1)}°C`;
                 })
                 .catch(error => {
