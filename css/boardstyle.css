@@ -117,7 +117,17 @@ a {
     font-size: 0;
     margin-right: 2%;
 }
-
+.bt_wrap button {
+    text-align: center;
+    display: inline-block;
+    height: 44px;
+    width: 101.6px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
 .bt_wrap a {
     text-align: center;
     display: inline-block;
@@ -144,7 +154,14 @@ a {
 .bt_wrap a:hover {
     color:#000;
 }
-
+.bt_wrap button.on {
+    background: #000;
+    color: #fff;
+}
+.bt_wrap button:hover {
+    opacity: 0.8;
+    color:#Fff;
+}
 .board_list {
     width: 100%;
     border-top: 2px solid #000;
@@ -247,16 +264,22 @@ a {
     border-bottom: 1px dashed #ddd;
     font-size: 2rem;
 }
-.delete {
+.board_view_wrap button {
     font-size: 12px;
     margin-right: 3%;
     margin-top: 10px;
     position: relative;
     float:right;
     cursor: pointer;
+    font-weight: bold;
 }
-.delete:hover {
+.board_view_wrap button {
     color:#000;
+    border: none;
+    background-color: white;
+}
+.board_view_wrap button:hover {
+    opacity: 0.8;
 }
 
 .board_view .info {
