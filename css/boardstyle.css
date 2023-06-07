@@ -108,9 +108,33 @@ a {
     font-size: 3rem;
     
 }
-
-
-
+/* 수정 목록 등 wrap 등록버튼 */
+.bt_wrap input[type="submit"] {
+    text-align: center;
+    display: inline-block;
+    height: 44px;
+    width: 101.6px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background: #000;
+    color: #fff;
+}
+.bt_wrap input[type="submit"]:hover {
+    opacity: 0.8;
+}
+.bt_wrap input[type="button"] {
+    text-align: center;
+    display: inline-block;
+    min-width: 80px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    font-size: 1.4rem;
+}
 .bt_wrap {
     margin-top: 20px;
     text-align: right;
@@ -264,7 +288,7 @@ a {
     border-bottom: 1px dashed #ddd;
     font-size: 2rem;
 }
-.board_view_wrap button {
+.board_view_wrap input[type="button"]{
     font-size: 12px;
     margin-right: 3%;
     margin-top: 10px;
@@ -272,15 +296,30 @@ a {
     float:right;
     cursor: pointer;
     font-weight: bold;
+    color:#000;
+    border: none;
+    background-color: white;
 }
-.board_view_wrap button {
+.board_view_wrap input[type="button"]:hover {
+    opacity: 0.8;
+}
+/* .board_view_wrap button {
+    font-size: 12px;
+    margin-right: 3%;
+    margin-top: 10px;
+    position: relative;
+    float:right;
+    cursor: pointer;
+    font-weight: bold;
+} */
+/* .board_view_wrap button {
     color:#000;
     border: none;
     background-color: white;
 }
 .board_view_wrap button:hover {
     opacity: 0.8;
-}
+} */
 
 .board_view .info {
     padding: 15px;
